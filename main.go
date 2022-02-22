@@ -71,7 +71,6 @@ func replaceChain(newBlocks []Block) {
 	}
 }
 
-// Server for looking at our blockchain in a browser.
 func run() error {
 	mux := makeMuxRouter()
 	port := os.Getenv("PORT")
